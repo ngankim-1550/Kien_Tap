@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\aboutus.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\flaticon.css" />
     <Content Include="css\font-awesome.min.css" />
@@ -78,9 +79,16 @@
     <Content Include="fonts\Flaticon.svg" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\themify.svg" />
+    <Content Include="img\aboutus\aboutus_snack.png" />
+    <Content Include="img\aboutus\chatluong.png" />
+    <Content Include="img\aboutus\giatricotloi.png" />
+    <Content Include="img\aboutus\ketnoi.png" />
+    <Content Include="img\aboutus\phattrien.png" />
+    <Content Include="img\aboutus\tietkiem.png" />
     <Content Include="img\background_02.png" />
     <Content Include="img\banner\background-03.png" />
     <Content Include="img\banner\BANNER -05.png" />
+    <Content Include="img\banner\BANNER about us.png" />
     <Content Include="img\banner\BANNER-02.png" />
     <Content Include="img\banner\BANNER-04.png" />
     <Content Include="img\banner\BANNER_1.png" />
@@ -153,6 +161,7 @@
     <Content Include="img\product\single-product\h7.jpg" />
     <Content Include="img\product\single-product\h8.jpg" />
     <Content Include="img\product\single-product\h9.jpg" />
+    <Content Include="about-us.html" />
     <Content Include="index.html" />
     <None Include="json\product.json" />
     <Content Include="js\angular.min.js" />
