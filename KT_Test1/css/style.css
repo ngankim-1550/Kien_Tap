@@ -697,7 +697,7 @@ header.sticky {
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 0px; /* Some padding */
     font-size: 18px; /* Increase font size */
-    background:none;
+    background-color:#fff;
     border-radius:50%;
 }
 
