@@ -210,6 +210,15 @@
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
+	.feature_product_area .left-area{
+		display:none
+	}
+	.feature_product_area .right-area {
+		display: none
+	}
+	.feature_product_area .row {
+		width:100%
+	}
 	/* Blog page Area css
 	============================================================================================ */
 	.categories_post img {
