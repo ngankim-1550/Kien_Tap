@@ -80,6 +80,7 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\themify.svg" />
     <Content Include="img\aboutus\aboutus_snack.png" />
+    <Content Include="img\aboutus\aboutus_snack2.png" />
     <Content Include="img\aboutus\chatluong.png" />
     <Content Include="img\aboutus\giatricotloi.png" />
     <Content Include="img\aboutus\ketnoi.png" />

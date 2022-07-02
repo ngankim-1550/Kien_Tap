@@ -926,7 +926,7 @@ pre code {
     margin-left: 91.666667%
 }
 
-@media (min-width:576px) {
+@media (max-width:576px) {
     .col-sm {
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1096,6 +1096,8 @@ pre code {
     .offset-sm-11 {
         margin-left: 91.666667%
     }
+
+
 }
 
 @media (min-width:768px) {
