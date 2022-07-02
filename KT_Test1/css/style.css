@@ -509,7 +509,7 @@ header.sticky {
     flex: 1 1 auto;
     min-width: 258px;
     max-width: 258px;
-    height: 472px;
+    height: 482px;
 }
 
     .single-product .product-img {
@@ -682,10 +682,12 @@ header.sticky {
                 line-height: 19.5px;
                 text-align:justify;
             }
-
-            .single-product:hover .product-img .p_icon {
-                bottom: 0px
-            }
+.single-product .product-btm .mt-3{
+    height:110px
+}
+.single-product:hover .product-img .p_icon {
+    bottom: 0px
+}
 #myBtn {
     display: inline; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
