@@ -686,7 +686,24 @@ header.sticky {
             .single-product:hover .product-img .p_icon {
                 bottom: 0px
             }
+#myBtn {
+    display: inline; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+    background:none;
+    border-radius:50%;
+}
 
+    #myBtn:hover {
+        background-color: #FDC202; /* Add a dark-grey background on hover */
+    }
     
 
 

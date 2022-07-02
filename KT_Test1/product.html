@@ -120,6 +120,23 @@
         </div>
     </header>
     <!--================Header Menu Area =================-->
+    <!--<div id='ads-trai'>
+        <div style='margin:0 0 5px 0; padding:0;width:160px;position:fixed; top:125px;left:16px;z-index:1'>
+            <span style="color: #ff0000;" data-mce-style="color: #ff0000;">
+
+                <a  href='http://phim14.me/'><img style="width:15vw; height:auto" src='img/banner/BANNER-04.png' /></a>
+            </span>
+        </div>
+    </div>
+
+
+    <div id='ads-phai'>
+        <div style='margin:0 0 5px 0; padding:0;width:160px;position:fixed; left:50%; top:125px; margin-left:600px;z-index:1'>
+            <span style="color: #ff0000;" data-mce-style="color: #ff0000;">
+                <a href='http://www.phim14.me/'><img  style="width:200px; height:auto" src='img/banner/BANNER -05.png' />     </a>
+            </span>
+        </div>
+    </div>-->
     <!--================ Feature Product Area =================-->
     <section class="feature_product_area">
         <div class=" left-area">
@@ -156,23 +173,22 @@
     </section>
     <!--================ End Feature Product Area =================-->
     <section class="chevron">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" fill="none" viewBox="0 0 32 32">
-            <path fill="url(#a)" stroke="#1E7F34" d="M.5.5h31v31H.5z" />
-            <defs>
-                <pattern id="a" width="1" height="1" patternContentUnits="objectBoundingBox">
-                    <use xlink:href="#b" transform="scale(.01042)" />
-                </pattern>
-            </defs>
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" fill="none" viewBox="0 0 32 32">
-            <path fill="url(#a)" stroke="#1E7F34" d="M.5.5h31v31H.5z" />
-            <defs>
-                <pattern id="a" width="1" height="1" patternContentUnits="objectBoundingBox">
-                    <use xlink:href="#b" transform="scale(.01042)" />
-                </pattern>
-            </defs>
-        </svg>
+        <a>
+            <svg xmlns="http://www.w3.org/2000/svg" style="margin-right:20px" width="32" height="32" fill="none" viewBox="0 0 32 32">
+                <path fill="#1E7F34" d="M28.444 0H3.556A3.556 3.556 0 0 0 0 3.556v24.888C0 30.418 1.6 32 3.556 32h24.888A3.543 3.543 0 0 0 32 28.444V3.556A3.556 3.556 0 0 0 28.444 0Zm0 28.444H3.556V3.556h24.888v24.888ZM22.596 7.84 14.436 16l8.16 8.16-2.525 2.507L9.404 16 20.071 5.333l2.525 2.507Z" />
+            </svg>
+        </a>
+        <a href="product.html?start=16&amount=5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32">
+                <path fill="#1E7F34" d="M28.444 0H3.556A3.556 3.556 0 0 0 0 3.556v24.888C0 30.418 1.6 32 3.556 32h24.888A3.543 3.543 0 0 0 32 28.444V3.556A3.556 3.556 0 0 0 28.444 0Zm0 28.444H3.556V3.556h24.888v24.888ZM9.404 24.16l8.16-8.16-8.16-8.16 2.525-2.507L22.596 16 11.929 26.667 9.404 24.16Z" />
+            </svg>
+        </a>
     </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="none" viewBox="0 0 76 76">
+            <path fill="#1E7F34" d="M75.5 38a37.5 37.5 0 1 1-75 0 37.5 37.5 0 0 1 75 0M20.75 50.75 38 33.5l17.25 17.25 5.25-5.25L38 23 15.5 45.5l5.25 5.25Z" />
+        </svg>
+    </button>
     <!--================ start footer Area  =================-->
     <div class="footer">
         <div class="footer-logo-container">
@@ -265,7 +281,27 @@
     <script src="vendors/counter-up/jquery.counterup.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/theme.js"></script>
-   
+    <script>
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
 </body>
 
 </html>
