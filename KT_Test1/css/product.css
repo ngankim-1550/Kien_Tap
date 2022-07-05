@@ -607,3 +607,16 @@ ul {
         text-align: center
     }
 }
+
+
+@media (max-width:576px) {
+    .footer-content {
+        margin: auto 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+        .footer-content > ul {
+            margin-top: 0px;
+        }
+}
