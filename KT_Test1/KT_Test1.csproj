@@ -179,6 +179,8 @@
     <Content Include="js\stellar.js" />
     <Content Include="js\theme.js" />
     <Content Include="product.html" />
+    <Content Include="product2.html" />
+    <Content Include="product_cate.html" />
     <Content Include="vendors\animate-css\animate.css" />
     <Content Include="vendors\animate-css\wow.min.js" />
     <Content Include="vendors\bootstrap-datepicker\bootstrap-datetimepicker.min.css" />

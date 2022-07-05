@@ -397,24 +397,21 @@ ul {
     .feature_product_area .left-area{
         width: 13vw;
         height:100%;
-        margin-top:100px;
         text-align:left
     }
 
     .feature_product_area .right-area {
         width: 13vw;
         height: 100%;
-        margin-top: 100px;
         text-align: right
     }
     .feature_product_area .row {
         width: 70.6vw;
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
         grid-gap: 16px;
         justify-content: center;
+        vertical-align:top;
     }
 
 

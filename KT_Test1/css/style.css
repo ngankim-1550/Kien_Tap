@@ -360,16 +360,7 @@ ul {
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
         line-height: 70px
     }
-header.sticky .logo,
-header.sticky ul li a {
-    color: #000;
-}
 
-header.sticky {
-    background-color: white;
-    padding: 0.5rem 9%;
-    border: 1px solid #c7c3c3;
-}
 
 .mb-40 img {
     width: 100vw;
