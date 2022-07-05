@@ -383,6 +383,15 @@ ul {
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
         line-height: 70px
     }
+.sticky {
+    position: fixed;
+    top: -70px;
+    width: 100%;
+    left: 15%;
+    text-align: center;
+    background: #fff;
+}
+
 /*--------------------------Main product-------------------------------*/
 .feature_product_area {
     background: #fff;

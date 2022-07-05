@@ -163,11 +163,13 @@ ul {
 
 .header_area {
     position: relative;
-    width: 70%;
+    width: 100vw;
     margin: 0 auto;
     z-index: 99;
-    margin-top:5px;
+    margin-top:0px;
     margin-bottom:10px;
+    background:#fff;
+    text-align:center;
     /*border: .5px outset #333333;*/
     transition: background 0.4s, all 0.3s linear
 }
@@ -200,6 +202,19 @@ ul {
             .header_area .navbar .icons:hover {
                 color: #1E7F34
             }
+header.sticky .logo,
+header.sticky ul li a {
+    color: #000;
+}
+
+.sticky {
+    position: fixed;
+    top: -70px;
+    left:15%;
+    text-align:center;
+    background:#fff;
+}
+
 
 @media (max-width: 992px) {
     .header_area .navbar .nav {

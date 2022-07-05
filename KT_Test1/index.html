@@ -25,7 +25,7 @@
 
 <body>
     <!--================Header Menu Area =================-->
-    <header class="header_area">
+    <header class="header_area" id="myHeader">
         <div class="main_menu">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light w-100">
@@ -89,6 +89,25 @@
         </div>
     </header>
     <!--================Header Menu Area =================-->
+    <script type="text/javascript">
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function () { myFunction() };
+
+        // Get the header
+        var header = document.getElementById("myHeader");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
     <!--================Home Banner Area =================-->
     <section class="mb-40">
         <div class="home_banner_area_1 my-slide">
@@ -478,8 +497,9 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">
         <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="none" viewBox="0 0 76 76">
             <path fill="#1E7F34" d="M75.5 38a37.5 37.5 0 1 1-75 0 37.5 37.5 0 0 1 75 0M20.75 50.75 38 33.5l17.25 17.25 5.25-5.25L38 23 15.5 45.5l5.25 5.25Z" />
-        </svg></button>
- <!-------------------------FOOOTER----------------------->
+        </svg>
+    </button>
+    <!-------------------------FOOOTER----------------------->
     <div class="footer">
         <div class="row">
             <div class="footer-logo-container col-4 col-sm-12">
@@ -610,7 +630,26 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
-    
+    <script type="text/javascript">
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function () { myFunction() };
+
+        // Get the header
+        var header = document.getElementById("myHeader");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
 </body>
 
 </html>
