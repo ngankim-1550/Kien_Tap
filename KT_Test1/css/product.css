@@ -383,6 +383,15 @@ ul {
     .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
         line-height: 70px
     }
+.sticky {
+    position: fixed;
+    top: -70px;
+    width: 100%;
+    left: 15%;
+    text-align: center;
+    background: #fff;
+}
+
 /*--------------------------Main product-------------------------------*/
 .feature_product_area {
     background: #fff;
@@ -397,24 +406,21 @@ ul {
     .feature_product_area .left-area{
         width: 13vw;
         height:100%;
-        margin-top:100px;
         text-align:left
     }
 
     .feature_product_area .right-area {
         width: 13vw;
         height: 100%;
-        margin-top: 100px;
         text-align: right
     }
     .feature_product_area .row {
         width: 70.6vw;
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
         grid-gap: 16px;
         justify-content: center;
+        vertical-align:top;
     }
 
 
