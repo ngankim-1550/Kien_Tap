@@ -810,15 +810,16 @@ header.sticky ul li a {
  
 }
 
-.footer-logo-container img{
+.footer-logo-container img {
     /*    display: inline-block;
     height: 360px;
     margin-top: 15px;
     margin-left:8vw;
     margin-right:5vw;
     vertical-align: middle;*/
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    padding-top: 100px;
     object-fit: cover;
     box-sizing: border-box;
     margin: auto 0;
@@ -844,7 +845,10 @@ header.sticky ul li a {
         list-style-type: none;
         margin-top:20px;
     }
-
+.footer .row{
+    padding-left:15px;
+    padding-right:15px;
+}
 
 .footer-content > ul > li > h4 {
     font-size: 15px;
@@ -877,6 +881,7 @@ header.sticky ul li a {
         -moz-transition: ease-in 0.20s;
         -webkit-transition: ease-in 0.20s;
     }
+
 @media (max-width: 1200px) {
     .footer #col4{
         margin: 0 auto !important; 

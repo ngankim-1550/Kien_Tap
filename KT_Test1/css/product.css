@@ -546,7 +546,7 @@ ul {
     }
 
 
-.footer-logo-container {
+/*.footer-logo-container {
     display: inline-block;
     height: 360px;
     margin-top: 15px;
@@ -562,6 +562,34 @@ ul {
     vertical-align: top;
     text-align: left start;
     position: relative;
+}
+*/
+
+
+.footer-logo-container img {
+    /*    display: inline-block;
+    height: 360px;
+    margin-top: 15px;
+    margin-left:8vw;
+    margin-right:5vw;
+    vertical-align: middle;*/
+    width: 90%;
+    height: 90%;
+    padding-top: 100px;
+    object-fit: cover;
+    box-sizing: border-box;
+    margin: auto 0;
+}
+
+.footer-content {
+    display: inline-block;
+    padding-top: 124px;
+    /*padding-bottom: 100px;*/
+    /*    vertical-align: top;
+*/ /*    text-align: left start;
+*/
+    position: relative;
+    align-items: center;
 }
 
     .footer-content > h2 {
