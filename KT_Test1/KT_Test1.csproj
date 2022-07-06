@@ -94,6 +94,8 @@
     <Content Include="img\banner\BANNER-02.png" />
     <Content Include="img\banner\BANNER-04.png" />
     <Content Include="img\banner\BANNER_1.png" />
+    <Content Include="img\banner\nobutton-BANNER-.png" />
+    <Content Include="img\banner\nobutton-BANNER2-02.png" />
     <Content Include="img\breadcrumb\checkout-bg.jpg" />
     <Content Include="img\elements\a.jpg" />
     <Content Include="img\elements\a2.jpg" />
