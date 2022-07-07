@@ -396,8 +396,11 @@
 		padding-bottom: 70px;
 	}
 
-	.main_title h2 {
+	.main_title h1 {
 		font-size: 20px;
+	}
+	.main_title p {
+		font-size: 18px;
 	}
 	/* Elements Area css
 	============================================================================================ */
