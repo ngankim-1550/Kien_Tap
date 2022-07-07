@@ -106,6 +106,51 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
     margin: auto 0;
 }
+
+/*button {
+    border: 1px solid transparent ;
+    border-radius: 50px;
+    background-color: #1E7F34;
+    color: #FDC202;
+    padding:7px 25px;
+    font-size:1.2rem;
+    font-weight:700;
+    align-items:center;
+    position:relative;
+    margin:0 auto;
+}*/
+
+/*--------------*/
+.container_banner {
+    position: relative;
+    width: 100%;
+}
+
+    /* Make the image responsive */
+    .container_banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Style the button and place it in the middle of the container/image */
+    .container_banner .btn_banner {
+        position: absolute;
+        font-family: "Montserrat",sans-serif;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #1E7F34;
+        color: #FDC202;
+        font-size: 1.2rem;
+        padding: 6px 28px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        font-weight: 700;
+        border-radius: 50px;
+    }
+
+
 @media (max-width:576px) {
     .aboutus_content h5 {
         font-size: 0.75rem;
@@ -122,7 +167,12 @@ h1, h2, h3, h4, h5, h6 {
         font-size:1rem;
         margin-bottom:0rem;
     }
-
+    .container_banner .btn_banner {
+        font-family: "Montserrat",sans-serif;
+        font-size: 0.5rem;
+        padding: 0.8px 5px;
+        font-weight: 700;
+    }
    
 }
 
