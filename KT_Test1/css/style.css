@@ -737,15 +737,17 @@ header.sticky ul li a {
     vertical-align: middle;*/
     width: 90%;
     height: 90%;
-    padding-top: 100px;
+    padding-top: 50px;
     object-fit: cover;
     box-sizing: border-box;
-    margin: auto 0;
+    margin: 0 auto;
+    align-content:center;
+    
 }
 
 .footer-content {
     display: inline-block;
-    padding-top: 124px;
+    padding-top: 54px;
     /*padding-bottom: 100px;*/
 /*    vertical-align: top;
 *//*    text-align: left start;
@@ -816,6 +818,9 @@ header.sticky ul li a {
             margin-top:0px;
         }
 
+    .footer-logo-container img {
+        align-items: center;
+    }
 }
 
 
